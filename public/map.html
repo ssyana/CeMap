@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>三维地图</title>
+    <!-- Use correct character set. -->
+    <meta charset="utf-8">
+    <!-- Tell IE to use the latest, best version. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>CeMap</title>
+    <link href="static/css/animate.min.css?v=1.0.0" rel="stylesheet" type="text/css" />
+    <link href="static/css/pageMain.css?v=1.0.0" rel="stylesheet" type="text/css" />
+    <link href="./static/css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="./static/js/jquery-ui-1.12.0/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="./static/js/bootstrap-4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="./map.css" rel="stylesheet" type="text/css" />
+    <link href="./static/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="./static/css/navigation-style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="./static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="./static/js/jquery-ui-1.12.0/jquery-ui.js"></script>
+    <script type="text/javascript" src="static/js/dragJS/js/drag.js"></script>
+    <script type="text/javascript" src="./static/js/bootstrap-4.3.1/js/bootstrap.js"></script>
+    <script type="text/javascript" src="./static/vue/vue.js"></script>
+    <script type="text/javascript" src="./Cesium1.59/Cesium.js"></script>
+    <script type="text/javascript" src="./Cesium1.59/viewerCesiumNavigationMixin.js"></script>
+    <script type="text/javascript" src="./Cesium1.59/Sandcastle-header.js"></script>
+    <style>
+        @import url(./Cesium1.59/Widgets/widgets.css);
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        #cesiumContainer {
+            width: 100%;
+            height: calc(100% - 0px);
+            /*计算函数*/
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            $("body").on("mouseover", ".tool_tip_2,.tool_tip_4", function () {
+                var $this = $(this);
+                $this.hide();
+                setTimeout(function () {
+                    $this.removeAttr("style");
+                }, 100);
+            })
+            debugger;
+        })
+
+    </script>
+
+    <!--<script type="text/javascript" src="./js/dojo.js"></script>-->
+    <!--<script src="./Cesium/Cesium.js"></script>-->
+    <!--<script src="./navigation/Source/viewerCesiumNavigationMixin.js"></script>-->
+</head>
+
+<body style="background-color: #181717">
+    <div class="ce_hender1">
+        <div class="ce_hender2">三维地图展示</div>
+    </div>
+    <div style="position: absolute;" id="cesiumContainer">
+
+    </div>
+
+    <!--<div  style="position: absolute;margin-left:15px;margin-top:20px;display: block;background-color:#EEEEEE;height:40px;width:230px;-moz-border-radius: 4px; -webkit-border-radius: 4px;">-->
+    <!--<div id="lb" style="position: absolute;left: 2.5px;height:36px;width:230px;margin-top:2.5px"></div>-->
+    <!--</div>-->
+    <div class="toolBox_left2"></div>
+    <div class="toolBox_left">
+        <ul class="toolBox_leftList navigation">
+            <!-- <li class="icon_num_3">
+                <a id="MapLayerWidget" href="javascript:void(0);" class="def to top" onclick="toolBoxclick('MapLayerWidget')">
+                    <i class="fa fa-map"></i>
+                    <span>图层</span>
+                </a>
+            </li> -->
+            <li class="icon_num_3">
+                <a  id="StaticModel"  href="javascript:void(0);" class="def to bottom" onclick="toolBoxclick('StaticModel')">
+                    <i class="fa fa-institution"></i>
+                    <span>模型</span>
+                </a>
+            </li>
+            <!-- <li class="icon_num_3">
+                <a  id="DrawWidget"  href="javascript:void(0);" class="def to right" onclick="toolBoxclick('DrawWidget')">
+                    <i class="fa fa-pencil"></i>
+                    <span>标绘</span>
+                </a>
+            </li>
+            <li class="icon_num_3">
+                <a  id="TongjiWidget"  href="javascript:void(0);" class="def to left" onclick="toolBoxclick('TongjiWidget')">
+                    <i class="fa fa-bar-chart"></i>
+                    <span>统计</span>
+                </a>
+            </li>
+            <li class="icon_num_3">
+                <a id="ChaxunWidget" href="javascript:void(0);" class="def to top" onclick="toolBoxclick('ChaxunWidget')">
+                    <i class="fa fa-search"></i>
+                    <span>查询</span>
+                </a>
+            </li>
+            <li class="icon_num_3">
+                <a  id="GjAdd"  href="javascript:void(0);" class="def to left" onclick="toolBoxclick('GjAdd')">
+                    <i class="fa fa-car"></i>
+                    <span>轨迹</span>
+                </a>
+            </li> -->
+            <!-- <li class="icon_num_3"><a class="layer_a" id="MapLayerWidget" title="图层"
+                    onclick="toolBoxclick('MapLayerWidget')"></a></li>
+            <li class="icon_num_3"><a class="mode_a" id="StaticModel" title="模型"
+                    onclick="toolBoxclick('StaticModel')"></a></li>
+            <li class="icon_num_3"><a class="Shane_a" id="Draw" title="标绘" onclick="toolBoxclick('Draw')"></a></li>
+            <li class="icon_num_3"><a class="tongji_a" id="TongjiWidget" title="统计"
+                    onclick="toolBoxclick('TongjiWidget')"></a></li>
+            <li class="icon_num_3"><a class="Chaxun_a" id="ChaxunWidget" title="查询"
+                    onclick="toolBoxclick('ChaxunWidget')"></a></li>
+            <li class="icon_num_3"><a class="fx_a" id="GjAdd" title="fx" onclick="toolBoxclick('GjAdd')"></a></li> -->
+        </ul>
+    </div>
+
+    <!-- <div id="toolBox_right" class="toolBox_right" style="">
+    <ul class="toolBox_rightList">
+        <li class="icon_num_3"><a class=" celiang_a" id="MeasureWidget" onclick="toolBoxclick('MeasureWidget')"></a></li>
+        <li class="icon_num_3"><a class=" cemian-a" id="" onclick="toolBoxclick('MeasureWidget')"></a></li>
+    </ul>
+</div> -->
+    <div id="right_box" class="right_box" style="display: none">
+        <div id="right_box_hander" style="width:100%;height: 20px;background-color: #dadada" class="hander">
+            <div style="float:right;margin-right:10px;"><a id="right_box_right" href="javascript:void(0);"
+                    class="right-box-right"></a></div>
+            <div style="float:right;margin-right:10px;"><a id="right_box_delete" href="javascript:void(0);"
+                    class="right-box-delete"></a></div>
+        </div>
+
+        <div id="right_box_chil" style="height:calc(100vh - 70px);"></div>
+    </div>
+    <div id="right_box_close"
+        style="position: absolute;width: 20px;height: 20px; display: none;background-color: #dadada;right: 1px;border-radius: 5px 0 0 5px;margin-top: 0px; ">
+        <a href="javascript:void(0);" class="right-box-left"></a>
+    </div>
+    <div id="bottom_box" class="bottom_box" style="display: block">
+
+    </div>
+    <div id="toolbar"></div>
+    <script type="text/javascript" src="CeMap.js"></script>
+    <div id="loadingIndicator" class="loadingIndicator"></div>
+    <script data-main="CeMapMain" src="./require/require.js"></script>
+</body>
+
+</html>

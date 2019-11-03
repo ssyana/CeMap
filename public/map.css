@@ -1,0 +1,307 @@
+/*!
+ * 清泉 v1.0.0 ()
+ * Copyright 2017 清泉.
+ * Licensed under the MIT license
+ */
+ @charset "UTF-8";
+ /**hander**********/
+ .ce_hender1 {
+    width: 100%;
+    height: 43px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+    z-index: 1001;
+    background: url('./images/div/title1.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.ce_hender2 {
+    width: 400px;
+    height: 30px;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+    margin-top: 5px;
+    /* margin: auto; */
+    margin-left: 570px;
+    z-index: 1001;
+    color: aliceblue;
+    text-align: center;
+}
+
+/**toolBox_left********************************************************/
+.toolBox_left {
+    position: absolute;
+    /*top: 50%;*/
+    width: 56px;
+    height: 400px;
+    margin-top: 50px;
+    left: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    display: none;
+}
+
+.toolBox_left:hover {
+    display: block;
+}
+
+@-webkit-keyframes toolBox_left {
+    0% {
+        width: 1px;
+    }
+
+    100% {
+        width: 56px;
+    }
+}
+
+.toolBox_left2 {
+    position: absolute;
+    width: 5px;
+    height: 400px;
+    margin-top: 50px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.toolBox_left2:hover+.toolBox_left {
+    display: block;
+    -webkit-animation: toolBox_left 0.3s;
+    -moz-animation: toolBox_left 0.3s;
+    animation: toolBox_left 0.3s;
+}
+
+.toolBox_leftList {
+    width: 100%;
+}
+
+.toolBox_leftList li {
+    margin-top: 15px;
+    height: 45px;
+    width: 100%;
+    position: relative
+}
+
+.toolBox_leftList li:hover {
+    /* background-color: rgba(4, 49, 121, 1); */
+}
+
+.toolBox_leftList .icon_num_3 .icon_bg {
+    background-image: url('./images/icon_3_bg.png');
+    width: 140px
+}
+
+.toolBox_leftList .icon_num_3:hover .icon_bg {
+    display: block
+}
+
+.toolBox_leftList .icon_num_3 ul {
+    width: 120px
+}
+
+.toolBox_leftList li a {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+.toolBox_leftList li .def{
+    background-repeat: no-repeat;
+}
+.toolBox_leftList li .act{
+    background-repeat: no-repeat;
+    background-color: rgb(0, 140, 255);
+}
+.toolBox_leftList .layer_b {
+    background-repeat: no-repeat;
+    background-image: url('images/200/tuceng-o.png');
+}
+
+.toolBox_leftList .layer_a {
+    background-repeat: no-repeat;
+    background-image: url('images/200/tuceng-s.png');
+}
+
+.toolBox_leftList .mode_a {
+    background-repeat: no-repeat;
+    background-image: url('images/200/mode-s.png');
+}
+
+.toolBox_leftList .mode_b {
+    background-repeat: no-repeat;
+    background-image: url('images/200/mode-o.png');
+}
+
+.toolBox_leftList .tongji_a {
+    background-repeat: no-repeat;
+    background-image: url('images/200/tongji-s.png');
+}
+
+.toolBox_leftList .tongji_b {
+    background-repeat: no-repeat;
+    background-image: url('images/200/tongji-o.png');
+}
+
+.toolBox_leftList .Chaxun_a {
+    background-repeat: no-repeat;
+    background-image: url('images/200/query-s.png');
+}
+
+.toolBox_leftList .Chaxun_b {
+    background-repeat: no-repeat;
+    background-image: url('images/200/query-o.png');
+}
+
+.toolBox_leftList .Shane_a {
+    background-repeat: no-repeat;
+    background-image: url('images/200/diqiu-s.png');
+}
+
+.toolBox_leftList .Shane_b {
+    background-repeat: no-repeat;
+    background-image: url('images/200/diqiu-o.png');
+}
+
+.toolBox_leftList .fx_a {
+    background-repeat: no-repeat;
+    background-image: url('images/200/feihangshijian-s.png');
+}
+
+.toolBox_leftList .fx_b {
+    background-repeat: no-repeat;
+    background-image: url('images/200/feihangshijian-o.png');
+}
+
+/***toolBox_right********************************************************/
+.toolBox_right {
+    position: absolute;
+    /*top: 50%;*/
+    width: 33px;
+    height: 400px;
+    margin-top: 270px;
+    right: 29px;
+
+}
+
+.toolBox_rightList li {
+    margin-top: 0.5px;
+    height: 33px;
+    width: 33px;
+    position: relative;
+    background-color: black;
+}
+
+.toolBox_rightList .icon_num_3 .icon_bg {
+    background-image: url('./images/icon_3_bg.png');
+    width: 33px
+}
+
+.toolBox_rightList .icon_num_3:hover .icon_bg {
+    display: block
+}
+
+.toolBox_rightList .icon_num_3 ul {
+    width: 33px
+}
+
+.toolBox_rightList .celiang_a {
+    display: block;
+    width: 33px;
+    height: 33px;
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    background-image: url('images/200/celiang.png');
+}
+
+.toolBox_rightList .celiang_b {
+    display: block;
+    width: 33px;
+    height: 33px;
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    background-image: url('images/200/celiang.png');
+}
+
+.toolBox_rightList .cemian-a {
+    display: block;
+    width: 33px;
+    height: 33px;
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    background-image: url('images/200/cemian.png');
+}
+
+.toolBox_rightList .cemian-b {
+    display: block;
+    width: 33px;
+    height: 33px;
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    background-image: url('images/200/cemian.png');
+}
+
+/***********************************************************************************/
+.right_box {
+    position: absolute;
+    height: 80%;
+    width: 400px;
+    right: 0px;
+}
+
+.bottom_box {
+    position: absolute;
+    height: 120px;
+    width: 180px;
+    right: 2px;
+    opacity: 0.8;
+    bottom: 40px;
+    text-align: left;
+}
+
+.loadingIndicator {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -33px;
+    margin-left: -33px;
+    width: 66px;
+    height: 66px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Images/ajax-loader.gif);
+}
+
+
+.right-box-delete{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(./static/images/ico/close_24px.ico);
+    background-size: 16px 16px;
+    margin-top: 2px;
+ }
+ .right-box-right{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(./static/images/ico/right_24px.ico);
+    background-size: 16px 16px;
+    margin-top: 2px;
+ }
+ .right-box-left{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(./static/images/ico/back_24px.ico);
+    background-size: 16px 16px;
+    margin-top: 2px;
+    margin-left: 5px;
+ }
+ 

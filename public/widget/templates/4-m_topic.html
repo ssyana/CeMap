@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="keywords" content="">
+    <meta name="description" content="welcome！">
+    <title>Topic</title>
+    <link href="../../static/css/animate.min.css?v=1.0.0" rel="stylesheet" type="text/css" />
+    <link href="../../static/css/pageMain.css?v=1.0.0" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../static/js/jquery-1.11.0.min.js?v=1.0.10"></script>
+    <script type="text/javascript" src="../../static/js/drag/js/drag.js"></script>
+    <style type="text/css">
+    body{
+      overflow: hidden;
+    }
+    </style>
+    <script type="text/javascript">
+    $(function(){
+       $("#selector1").itemSelector({
+          isMulti:false,  //单选还是多选
+          changeCall:function(results){//选择的回调，参数results是选择的结果，具体请看控制台
+            console.log(results);
+            }
+       });
+       //初始化进度条工具
+       $(".progress_handler .pro_handler_bar").each(function(){
+           var $this=$(this);
+           $this.dragging({
+              move : 'x',
+              randomPosition : false,
+              moveCall:function(left){
+                $this.siblings(".progress_val").width(left);
+                $this.parents(".progress_bar").find(".pro_result").html((left/158*100).toFixed(0) + "%");
+                //当前操作的专题返回结果
+                //var thisSubject=getCurrentSubject($this.parents(".progress_item"));
+                //console.log(thisSubject);
+              },
+              upCall:function(left){
+                //当前操作的专题返回结果
+                var thisSubject=getCurrentSubject($this.parents(".progress_item"));
+                console.log(thisSubject);
+              }
+            });
+       });
+       //选择配置项目事件初始化
+       $("body").on("click",".progress_item h6",function(){
+          var $this=$(this);
+          var $item=$this.parents(".progress_item");
+          $item.toggleClass("on");
+          if($item.hasClass("on")){
+            //当前点击选中了专题
+            var thisSubject=getCurrentSubject($this.parents(".progress_item"));
+            console.log(thisSubject);
+          }else{
+            //当前点击的取消选中该专题，下面是当前的id
+            var thisId=$item.attr("data-val");
+            console.log(thisId);
+          }
+          
+       });
+       //console.log(getSelectedSubject());
+       //设置专题区域高度自适应
+       setSubjectArea();
+       $(window).resize(function(){
+          setSubjectArea();
+       });
+    });
+
+
+    //获取选择的专题!!!!!!!!!用此方法获取选择的专题及对应选择的设置值！！！！！！如 var aaaa=getSelectedSubject();
+    function getSelectedSubject(){
+      var data=[];
+      $(".progress_item.on").each(function(){
+          var thisId=$(this).attr("data-val");
+          var thisName=$(this).attr("data-name");
+          var thisVal=$(this).find(".pro_result").text();
+          data.push({
+            id:thisId,//唯一标示
+            name:thisName,//专题区名称
+            val:thisVal
+          });
+      });
+      return data;
+    }
+
+    function getCurrentSubject($progressItem){
+      var thisId=$progressItem.attr("data-val");
+      var thisName=$progressItem.attr("data-name");
+      var thisVal=$progressItem.find(".pro_result").text();
+      return {
+        id:thisId,//唯一标示
+        name:thisName,//专题区名称
+        val:thisVal
+      };
+    }
+
+
+    //////////////////插件定义////////////////
+    $.fn.extend({
+           //模拟单选或者多选
+           itemSelector:function(options){
+              var settings=$.extend({
+                 isMulti:false,//是否多选，默认单选
+                 changeCall:function(results){console.log(results);}
+              },options);
+              var $this=$(this);
+              var $lis=$this.children("li");
+              $lis.click(function(){
+                  if(settings.isMulti){
+                    $(this).toggleClass("on");
+                  }else{
+                    $(this).addClass("on").siblings().removeClass("on");
+                  }
+                  var results=getResultSel($this);
+                  settings.changeCall(results);
+              });
+           }
+
+       });
+   //获取选择的值
+   function getResultSel($selector){
+       var results=[];
+       $selector.children("li.on").each(function(){
+          results.push($(this).attr("data-val"));
+       });
+       return results;
+   }
+   //设置专题区高度自适应
+   function setSubjectArea(){
+      //设置专题底图列表区域高度
+
+      //设置专题progress区域高度
+      var areaH=0;
+      $(".m_topic_map").children().not(".progress_wrap").each(function(){
+          areaH+=$(this).outerHeight();
+      });
+      $(".progress_wrap").height($(".m_topic_map").height()-areaH-70);
+   }
+    </script>
+</head>
+<body style="background-color:#424242;">
+  
+  <!-- 专题 -->
+  <div class="m_topic_map" style="max-width:400px;">
+    <h2 class="dialog_caption">专题地图</h2>
+    <!-- 选择底图专题 -->
+    <h3 class="dialog_sub_caption">选择底图专题</h3>
+    <ul class="item_selector border-b-solid pb10 mapLayersList" id="selector1">
+      <li data-val="1">矢量地图<i class="selected_icon iconfont">&#xe665;</i></li>
+      <li data-val="2" class="on">2015影像<i class="selected_icon iconfont">&#xe665;</i></li>
+      <li data-val="3">2016影像<i class="selected_icon iconfont">&#xe665;</i></li>
+      <li data-val="4">2017影像<i class="selected_icon iconfont">&#xe665;</i></li>
+      <li data-val="1">矢量地图<i class="selected_icon iconfont">&#xe665;</i></li>
+    
+
+
+
+    </ul>
+    <!-- end 选择底图专题 -->
+    <!-- 专题区 -->
+    <h3 class="dialog_sub_caption mb10">专题区</h3>
+    <div class="progress_wrap">
+      <!-- item -->
+      <div class="progress_item on" data-val="0001" data-name="税源宗地"><!-- 默认选中的  加  on -->
+        <div class="progress_mask"></div>
+        <h6><i class="v_checker"><span class="iconfont">&#xe665;</span></i>税源宗地</h6>
+        <div class="progress_bar">
+          <div class="progress_handler">
+            <div class="progress_bg"></div>
+            <div class="progress_val" style="width:50%;"></div>
+            <a class="pro_handler_bar" style="left:50%;"></a>
+          </div>
+          <div class="pro_result">50%</div>
+        </div>
+      </div>
+      <!-- end item -->
+      <!-- item -->
+      <div class="progress_item" data-val="0002" data-name="土地等级">
+        <div class="progress_mask"></div>
+        <h6><i class="v_checker"><span class="iconfont">&#xe665;</span></i>土地等级</h6>
+        <div class="progress_bar">
+          <div class="progress_handler">
+            <div class="progress_bg"></div>
+            <div class="progress_val" style="width:50%;"></div>
+            <a class="pro_handler_bar" style="left:50%;"></a>
+          </div>
+          <div class="pro_result">50%</div>
+        </div>
+      </div>
+      <!-- end item -->
+      <!-- item -->
+      <div class="progress_item" data-val="0002" data-name="土地等级">
+        <div class="progress_mask"></div>
+        <h6><i class="v_checker"><span class="iconfont">&#xe665;</span></i>土地等级</h6>
+        <div class="progress_bar">
+          <div class="progress_handler">
+            <div class="progress_bg"></div>
+            <div class="progress_val" style="width:50%;"></div>
+            <a class="pro_handler_bar" style="left:50%;"></a>
+          </div>
+          <div class="pro_result">50%</div>
+        </div>
+      </div>
+      <!-- end item -->
+      <!-- item -->
+      <div class="progress_item" data-val="0002" data-name="土地等级">
+        <div class="progress_mask"></div>
+        <h6><i class="v_checker"><span class="iconfont">&#xe665;</span></i>土地等级</h6>
+        <div class="progress_bar">
+          <div class="progress_handler">
+            <div class="progress_bg"></div>
+            <div class="progress_val" style="width:50%;"></div>
+            <a class="pro_handler_bar" style="left:50%;"></a>
+          </div>
+          <div class="pro_result">50%</div>
+        </div>
+      </div>
+      <!-- end item -->
+      <!-- item -->
+      <div class="progress_item" data-val="0002" data-name="土地等级">
+        <div class="progress_mask"></div>
+        <h6><i class="v_checker"><span class="iconfont">&#xe665;</span></i>土地等级</h6>
+        <div class="progress_bar">
+          <div class="progress_handler">
+            <div class="progress_bg"></div>
+            <div class="progress_val" style="width:50%;"></div>
+            <a class="pro_handler_bar" style="left:50%;"></a>
+          </div>
+          <div class="pro_result">50%</div>
+        </div>
+      </div>
+      <!-- end item -->
+      <!-- item -->
+      <div class="progress_item on" data-val="0003" data-name="行政区界">
+        <div class="progress_mask"></div>
+        <h6><i class="v_checker"><span class="iconfont">&#xe665;</span></i>行政区界</h6>
+        <div class="progress_bar">
+          <div class="progress_handler">
+            <div class="progress_bg"></div>
+            <div class="progress_val" style="width:50%;"></div>
+            <a class="pro_handler_bar" style="left:50%;"></a>
+          </div>
+          <div class="pro_result">50%</div>
+        </div>
+      </div>
+      <!-- end item -->
+      <!-- item -->
+      <div class="progress_item" data-val="0004" data-name="综合税收排名">
+        <div class="progress_mask"></div>
+        <h6><i class="v_checker"><span class="iconfont">&#xe665;</span></i>综合税收排名</h6>
+        <div class="progress_bar">
+          <div class="progress_handler">
+            <div class="progress_bg"></div>
+            <div class="progress_val" style="width:50%;"></div>
+            <a class="pro_handler_bar" style="left:50%;"></a>
+          </div>
+          <div class="pro_result">50%</div>
+        </div>
+      </div>
+      <!-- end item -->
+      <!-- item -->
+      <div class="progress_item" data-val="0005" data-name="行政区界">
+        <div class="progress_mask"></div>
+        <h6><i class="v_checker"><span class="iconfont">&#xe665;</span></i>行政区界</h6>
+        <div class="progress_bar">
+          <div class="progress_handler">
+            <div class="progress_bg"></div>
+            <div class="progress_val" style="width:50%;"></div>
+            <a class="pro_handler_bar" style="left:50%;"></a>
+          </div>
+          <div class="pro_result">50%</div>
+        </div>
+      </div>
+      <!-- end item -->
+      <!-- item -->
+      <div class="progress_item" data-val="0006" data-name="行政区界">
+        <div class="progress_mask"></div>
+        <h6><i class="v_checker"><span class="iconfont">&#xe665;</span></i>行政区界</h6>
+        <div class="progress_bar">
+          <div class="progress_handler">
+            <div class="progress_bg"></div>
+            <div class="progress_val" style="width:50%;"></div>
+            <a class="pro_handler_bar" style="left:50%;"></a>
+          </div>
+          <div class="pro_result">50%</div>
+        </div>
+      </div>
+      <!-- end item -->
+      <!-- item -->
+      <div class="progress_item" data-val="0007" data-name="行政区界">
+        <div class="progress_mask"></div>
+        <h6><i class="v_checker"><span class="iconfont">&#xe665;</span></i>行政区界</h6>
+        <div class="progress_bar">
+          <div class="progress_handler">
+            <div class="progress_bg"></div>
+            <div class="progress_val" style="width:50%;"></div>
+            <a class="pro_handler_bar" style="left:50%;"></a>
+          </div>
+          <div class="pro_result">50%</div>
+        </div>
+      </div>
+      <!-- end item -->
+      <!-- item -->
+      <div class="progress_item" data-val="0008" data-name="行政区界">
+        <div class="progress_mask"></div>
+        <h6><i class="v_checker"><span class="iconfont">&#xe665;</span></i>行政区界</h6>
+        <div class="progress_bar">
+          <div class="progress_handler">
+            <div class="progress_bg"></div>
+            <div class="progress_val" style="width:50%;"></div>
+            <a class="pro_handler_bar" style="left:50%;"></a>
+          </div>
+          <div class="pro_result">50%</div>
+        </div>
+      </div>
+      <!-- end item -->
+    </div>
+    <!-- end 专题区 -->
+  </div>
+  <!-- end专题 -->
+
+</body>
+</html>
+

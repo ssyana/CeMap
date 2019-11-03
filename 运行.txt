@@ -1,0 +1,3 @@
+安装完node.js后打开cmd
+进入到该项目所在的目录，运行node app.js
+访问地址http://localhost:8081/map.html

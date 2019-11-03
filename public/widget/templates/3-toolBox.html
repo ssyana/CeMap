@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="keywords" content="">
+    <meta name="description" content="welcome！">
+    <title>圆形图标</title>
+    <link href="static/css/animate.min.css?v=1.0.0" rel="stylesheet" type="text/css" />
+    <link href="static/css/pageMain.css?v=1.0.0" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="static/js/jquery-1.11.0.min.js?v=1.0.10"></script>
+    <script type="text/javascript">
+    $(function(){
+    	$("body").on("mouseover",".tool_tip_2,.tool_tip_4",function(){
+    		var $this=$(this);
+    		$this.hide();
+    		setTimeout(function(){
+    			$this.removeAttr("style");
+    		},100);
+    	})
+    })
+    </script>
+</head>
+<body style="background-color:#424242;">
+<!-- 水晶图标 -->
+<div class="m_toolBox">
+   <ul class="m_toolBoxList">
+   	<li class="icon_num_3">
+   		<a class="tool_topic"><span class="tool_tip_2">专题</span></a>
+   		<ul>
+   			<li><a class="tool_image"><span class="tool_tip_2">影像</span></a></li>
+   			<li><a class="tool_vector"><span class="tool_tip_2">矢量</span></a></li>
+   		</ul>
+   		<i class="icon_bg"></i>
+   	</li>
+   	<li class="icon_num_2">
+   		<a class="tool_zoomIn"><span class="tool_tip_2">放大</span></a>
+   		<ul>
+   			<li><a class="tool_zoomOut"><span class="tool_tip_2">缩小</span></a></li>
+   		</ul>
+   		<i class="icon_bg"></i>
+   	</li>
+   	<li><a class="tool_roam"><span class="tool_tip_2">漫游</span></a></li>
+   	<li class="icon_num_2">
+   		<a class="tool_area"><span class="tool_tip_2">测面</span></a>
+   		<ul>
+   			<li><a class="tool_length"><span class="tool_tip_2">测距</span></a></li>
+   		</ul>
+   		<i class="icon_bg"></i>
+   	</li>
+   	<li><a class="tool_clear"><span class="tool_tip_2">清除</span></a></li>
+   	<li class="tool_box_space"></li>
+   	<li class="icon_num_2">
+   		<a class="tool_search"><span class="tool_tip_2">查询</span></a>
+   		<ul>
+   			<li><a class="tool_space_query"><span class="tool_tip_4">空间查询</span></a></li>
+   		</ul>
+   		<i class="icon_bg"></i>
+   	</li>
+   	<li class="icon_num_2">
+   		<a class="tool_condition_query"><span class="tool_tip_4">条件检索</span></a>
+   		<ul>
+   			<li><a class="tool_text_query"><span class="tool_tip_4">全文检索</span></a></li>
+   		</ul>
+   		<i class="icon_bg"></i>
+   	</li>
+   	<li><a class="tool_statistics"><span class="tool_tip_2">统计</span></a></li>
+   </ul>
+</div>
+<!-- end水晶图标 -->
+</body>
+</html>
+

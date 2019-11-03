@@ -1,0 +1,45 @@
+{
+  "name": "CeMap",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "startPublic": "node app.js --public",
+    "build": "gulp build",
+    "build-watch": "gulp build-watch",
+    "buildApps": "gulp buildApps",
+    "clean": "gulp clean",
+    "cloc": "gulp cloc",
+    "combine": "gulp combine",
+    "combineRelease": "gulp combineRelease",
+    "requirejs": "gulp requirejs",
+    "generateDocumentation": "gulp generateDocumentation",
+    "instrumentForCoverage": "gulp instrumentForCoverage",
+    "eslint": "eslint \"./**/*.js\" \"./**/*.html\" --cache --quiet",
+    "makeZipFile": "gulp makeZipFile",
+    "minify": "gulp minify",
+    "minifyRelease": "gulp minifyRelease",
+    "release": "gulp release",
+    "test": "gulp test",
+    "test-all": "gulp test --all",
+    "test-webgl": "gulp test --include WebGL",
+    "test-non-webgl": "gulp test --exclude WebGL",
+    "test-webgl-validation": "gulp test --webglValidation",
+    "test-webgl-stub": "gulp test --webglStub",
+    "test-release": "gulp test --release",
+    "generateStubs": "gulp generateStubs",
+    "sortRequires": "gulp sortRequires",
+    "deploy-s3": "gulp deploy-s3",
+    "deploy-status": "gulp deploy-status",
+    "deploy-set-version": "gulp deploy-set-version"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  }
+
+}

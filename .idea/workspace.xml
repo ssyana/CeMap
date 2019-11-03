@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fba2a528-b1eb-453e-a7b5-8a04abe70af2" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="WebCesium" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="DynamicModel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/widget/templates/DynamicModel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CeMap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/CeMap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GjAdd.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/widget/GjAdd.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+              <folding>
+                <marker date="1564320926600" expanded="true" signature="749:823" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CeMapMain.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/CeMapMain.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1770">
+              <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Matrix4.multiplyByPoint</find>
+      <find>hpRange</find>
+      <find>hpRoll</find>
+      <find>toRadians</find>
+      <find>addEventListener</find>
+      <find>主</find>
+      <find>WebMapTileServiceImageryProvider</find>
+      <find>Hammer</find>
+      <find>hasProp</find>
+      <find>viewerCesiumNavigationMixin</find>
+      <find>Cesium</find>
+      <find>noConflict</find>
+      <find>leaflet</find>
+      <find>button-pill</find>
+      <find>.button-action</find>
+      <find>button-action</find>
+      <find>#8bc220</find>
+      <find>button-3d.button-action:active</find>
+      <find>button-3d.button-action.is-active</find>
+      <find>button-3d.button-action.active</find>
+      <find>button-3d.button-action</find>
+      <find>button-action:active</find>
+      <find>text</find>
+      <find>bottom_box</find>
+      <find>makeLabel</find>
+      <find>animation</find>
+      <find>timeline</find>
+      <find>TimelinemakeLabel</find>
+      <find>twoDigits</find>
+      <find>Dythis</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/custom.css" />
+        <option value="$PROJECT_DIR$/public/static/css/pageMain.min.css" />
+        <option value="$PROJECT_DIR$/public/widget/templates/4-m_topic.html" />
+        <option value="$PROJECT_DIR$/public/widget/CeMeasurePoint.js" />
+        <option value="$PROJECT_DIR$/public/widget/MeasurePoint.js" />
+        <option value="$PROJECT_DIR$/public/js/CesiumViewerStartup.js" />
+        <option value="$PROJECT_DIR$/public/CesiumViewer.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Widgets/Viewer/Viewer.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/CesiumNavigation.js" />
+        <option value="$PROJECT_DIR$/public/CeMain.js" />
+        <option value="$PROJECT_DIR$/public/widget/AddMapLayer.js" />
+        <option value="$PROJECT_DIR$/public/map.js" />
+        <option value="$PROJECT_DIR$/public/CesiumViewerStartup.js" />
+        <option value="$PROJECT_DIR$/public/widget/templates/MapLayerWidget.html" />
+        <option value="$PROJECT_DIR$/public/widget/MapLayerWidget.js" />
+        <option value="$PROJECT_DIR$/public/static/js/jquery-ui-1.12.0/jquery-ui.css" />
+        <option value="$PROJECT_DIR$/public/static/js/easyui/easyui.css" />
+        <option value="$PROJECT_DIR$/public/widget/templates/DynamicModel.html" />
+        <option value="$PROJECT_DIR$/public/SampleData/population909500.json" />
+        <option value="$PROJECT_DIR$/public/widget/MapUrl.js" />
+        <option value="$PROJECT_DIR$/public/widget/ShaneWidget.js" />
+        <option value="$PROJECT_DIR$/public/widget/TongjiWidget.js" />
+        <option value="$PROJECT_DIR$/public/widget/MeasureWidget.js" />
+        <option value="$PROJECT_DIR$/public/widget/ChaxunWidget.js" />
+        <option value="$PROJECT_DIR$/public/widget/FxWidget.js" />
+        <option value="$PROJECT_DIR$/public/widget/measure.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/viewerCesiumNavigationMixin.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Navigation/CesiumNavigation.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Navigation/ViewModels/ZoomNavigationControl.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Navigation/ViewModels/UserInterfaceControl.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Navigation/ViewModels/ResetViewNavigationControl.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Navigation/ViewModels/NavigationViewModel.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Navigation/ViewModels/NavigationControl.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Navigation/ViewModels/DistanceLegendViewModel.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Navigation/Core/registerKnockoutBindings.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Navigation/Core/loadView.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Navigation/Core/KnockoutHammerBinding.js" />
+        <option value="$PROJECT_DIR$/public/js/viewerCesiumNavigationMixin.js" />
+        <option value="$PROJECT_DIR$/public/cesium-navigation/Examples/Build/amd.min.js" />
+        <option value="$PROJECT_DIR$/public/Cesium/Navigation/viewerCesiumNavigationMixin.js" />
+        <option value="$PROJECT_DIR$/public/widget/DynamicModel.js" />
+        <option value="$PROJECT_DIR$/public/static/css/buttons.css" />
+        <option value="$PROJECT_DIR$/public/CeMapMain.js" />
+        <option value="$PROJECT_DIR$/public/widget/StaticModel.js" />
+        <option value="$PROJECT_DIR$/public/map.html" />
+        <option value="$PROJECT_DIR$/public/widget/templates/StaticModel.html" />
+        <option value="$PROJECT_DIR$/public/map.css" />
+        <option value="$PROJECT_DIR$/public/Cesium/Cesium.js" />
+        <option value="$PROJECT_DIR$/public/CeMap.js" />
+        <option value="$PROJECT_DIR$/public/widget/GjAdd.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CeMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/SmartAll/eSysServer/esys-fdpgsys" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\CeMap\public\images\64" />
+      <recent name="E:\WebstormProjects\CeMap\public\images\16" />
+      <recent name="E:\WebstormProjects\CeMap\public" />
+      <recent name="E:\WebstormProjects\CeMap\public\require" />
+      <recent name="E:\WebstormProjects\CeMap\public\widget\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\CeMap\public\static\css" />
+      <recent name="E:\WebstormProjects\CeMap\public\widget\templates" />
+      <recent name="E:\WebstormProjects\CeMap\public\Cesium" />
+      <recent name="E:\WebstormProjects\CeMap\public\Cesium\Navigation" />
+      <recent name="E:\WebstormProjects\CeMap\public\widget" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fba2a528-b1eb-453e-a7b5-8a04abe70af2" name="Default" comment="" />
+      <created>1527585291885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527585291885</updated>
+      <workItem from="1527585293170" duration="1717000" />
+      <workItem from="1527596912242" duration="8174000" />
+      <workItem from="1527688255540" duration="7612000" />
+      <workItem from="1527732148560" duration="8184000" />
+      <workItem from="1527750096553" duration="3755000" />
+      <workItem from="1527757362853" duration="164000" />
+      <workItem from="1527757567818" duration="399000" />
+      <workItem from="1527813014175" duration="22550000" />
+      <workItem from="1527927002780" duration="1075000" />
+      <workItem from="1528006390081" duration="8770000" />
+      <workItem from="1528157454033" duration="8154000" />
+      <workItem from="1528287737887" duration="3296000" />
+      <workItem from="1528334102828" duration="7187000" />
+      <workItem from="1528613520824" duration="244000" />
+      <workItem from="1528704416215" duration="2145000" />
+      <workItem from="1528761809805" duration="10108000" />
+      <workItem from="1528935231410" duration="4066000" />
+      <workItem from="1528944027725" duration="14760000" />
+      <workItem from="1529023013397" duration="22547000" />
+      <workItem from="1529371040473" duration="2346000" />
+      <workItem from="1529634616732" duration="485000" />
+      <workItem from="1529913008897" duration="114000" />
+      <workItem from="1533606224300" duration="14446000" />
+      <workItem from="1533630734739" duration="1765000" />
+      <workItem from="1533865194574" duration="2842000" />
+      <workItem from="1540428141286" duration="8213000" />
+      <workItem from="1540964854901" duration="2520000" />
+      <workItem from="1541031601557" duration="68000" />
+      <workItem from="1541141956510" duration="2441000" />
+      <workItem from="1541382369576" duration="3164000" />
+      <workItem from="1541402571248" duration="2638000" />
+      <workItem from="1541464952092" duration="18450000" />
+      <workItem from="1541550613223" duration="4211000" />
+      <workItem from="1541554953389" duration="14897000" />
+      <workItem from="1541636986919" duration="12646000" />
+      <workItem from="1541983625544" duration="12131000" />
+      <workItem from="1542068521007" duration="11811000" />
+      <workItem from="1542532063309" duration="20000" />
+      <workItem from="1543139057509" duration="5574000" />
+      <workItem from="1560245273467" duration="30000" />
+      <workItem from="1561357438430" duration="599000" />
+      <workItem from="1563933267886" duration="9792000" />
+      <workItem from="1563947551914" duration="682000" />
+      <workItem from="1564018818101" duration="4939000" />
+      <workItem from="1564469148290" duration="651000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="272382000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22674419" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18346547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/package.json" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/.jshintrc" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/amd.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Examples/Source/amd/main.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Examples/Build/amd.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Examples/Source/SpirographPositionProperty_amd.js" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/Core/createFragmentFromTemplate.js" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/Core/Utils.js" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/Core/registerKnockoutBindings.js" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/Core/loadView.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Source/ViewModels/NavigationControl.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Source/ViewModels/DistanceLegendViewModel.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Source/ViewModels/ZoomNavigationControl.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Source/ViewModels/UserInterfaceControl.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Source/ViewModels/ResetViewNavigationControl.js" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/ViewModels/ZoomNavigationControl.js" />
+    <entry file="file://$PROJECT_DIR$/public/widget/AddMapLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/copyrightHeader.js" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/ViewModels/NavigationViewModel.js" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/ViewModels/NavigationControl.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Examples/Source/mainConfig.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Examples/build.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Examples/server.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/Source/viewerCesiumNavigationMixin.js" />
+    <entry file="file://$PROJECT_DIR$/public/widget/MapLayerWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/CesiumNavigation.js" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/viewerCesiumNavigationMixin.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/build.js" />
+    <entry file="file://$PROJECT_DIR$/public/cesium-navigation/mainConfig.js" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/Core/KnockoutMarkdownBinding.js" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/ViewModels/DistanceLegendViewModel.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/viewerCesiumNavigationMixin.js" />
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Navigation/Core/KnockoutHammerBinding.js" />
+    <entry file="file://$PROJECT_DIR$/public/tsqlz11/0/0/0.b3dm" />
+    <entry file="file://$PROJECT_DIR$/public/widget/DrawWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/widget/ChaxunWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/widget/MeasureWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/widget/TongjiWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3157">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/widget/StaticModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1717">
+          <caret line="394" column="31" lean-forward="false" selection-start-line="394" selection-start-column="31" selection-end-line="394" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/css/buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="109" column="2" lean-forward="false" selection-start-line="109" selection-start-column="2" selection-end-line="109" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/widget/DynamicModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="243" column="9" lean-forward="true" selection-start-line="243" selection-start-column="9" selection-end-line="243" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Cesium/viewerCesiumNavigationMixin.js" />
+    <entry file="file://$PROJECT_DIR$/public/widget/templates/StaticModel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="77" lean-forward="true" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/map.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="234" column="17" lean-forward="true" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="160" column="64" lean-forward="false" selection-start-line="160" selection-start-column="64" selection-end-line="160" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/widget/templates/DynamicModel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/js/ueditor/ueditor.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="379" column="8" lean-forward="false" selection-start-line="379" selection-start-column="8" selection-end-line="379" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Cesium/Cesium.js" />
+    <entry file="file://$PROJECT_DIR$/public/CeMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/widget/GjAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding>
+            <marker date="1564320926600" expanded="true" signature="749:823" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CeMapMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
